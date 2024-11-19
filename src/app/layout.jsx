@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" async/>
         <link rel="shortcut icon" href="https://assets.ctfassets.net/fzn2n1nzq965/01hMKr6nEEGVfOuhsaMIXQ/c424849423b5f036a8892afa09ac38c7/favicon.ico" />
         <link rel="apple-touch-icon" href="https://images.ctfassets.net/fzn2n1nzq965/2EOOpI2mMZgHYBlbO44zWV/5a6c5d37402652c80567ec942c733a43/favicon.png?w=180&amp;h=180" />
         <link rel="icon" href="https://images.ctfassets.net/fzn2n1nzq965/2EOOpI2mMZgHYBlbO44zWV/5a6c5d37402652c80567ec942c733a43/favicon.png?w=180&amp;h=180" />
@@ -811,7 +811,7 @@ export default function RootLayout({ children }) {
         
 
 
-  <script type="text/javascript" src="https://b.stripecdn.com/mkt-statics-srv/assets/Prelude-Q2U7OZHZ.js"></script>
+  <script type="text/javascript" src="https://b.stripecdn.com/mkt-statics-srv/assets/Prelude-Q2U7OZHZ.js" async/>
 
 
         {/* <>
@@ -821,7 +821,7 @@ export default function RootLayout({ children }) {
           </Script>
           
         </> */}
-        <Script strategy="lazyOnload">
+        <Script strategy="lazyOnload" id='fr'>
           {`
           new MutationObserver(e => {
             for (const d of e) {
@@ -847,7 +847,7 @@ export default function RootLayout({ children }) {
         `}
         </Script>
 
-        <script type="text/javascript" src="https://b.stripecdn.com/mkt-statics-srv/assets/Prelude-Q2U7OZHZ.js"></script>
+        <script type="text/javascript" src="https://b.stripecdn.com/mkt-statics-srv/assets/Prelude-Q2U7OZHZ.js" async/>
       </head>
       <body className={myFont.className}>{children}</body>
     </html>

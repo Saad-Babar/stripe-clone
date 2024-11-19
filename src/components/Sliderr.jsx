@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Tabsbutton from './Tabsbutton';
+import Image from 'next/image';
 
 
 function Sliderr() {
@@ -75,13 +76,13 @@ function Sliderr() {
           <div className="CustomersCaseStudyCardBackground__imageContainer">
             {/* bmw first image */}
             <picture id='frstBmw' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./bmw1.png" width="918" height="348" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./bmw1.png" width="918" height="348" alt='' />
             </picture>
             {/* Bmw Second Image */}
             <picture id='scndBmw' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./bmw2.png" width="918" height="348" loading="lazy" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./bmw2.png" width="918" height="348" loading="lazy" alt='' />
               <Tabsbutton label="Read Story"></Tabsbutton>
             </picture>
           </div>
@@ -90,13 +91,13 @@ function Sliderr() {
         <div onMouseEnter={changeAmzn} onMouseLeave={revertAmzn} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
           <div className="CustomersCaseStudyCardBackground__imageContainer">
             <picture id='frstAmzn' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./amazon1.png" width="918" height="348" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./amazon1.png" width="918" height="348" alt='' />
             </picture>
 
             <picture id='scndAmzn' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./amazon2.png" width="918" height="348" loading="lazy" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./amazon2.png" width="918" height="348" loading="lazy" alt='' />
               <Tabsbutton label="Read Story"></Tabsbutton>
             </picture>
           </div>
@@ -105,13 +106,13 @@ function Sliderr() {
         <div onMouseEnter={changeMaresk} onMouseLeave={revertMaresk} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
           <div className="CustomersCaseStudyCardBackground__imageContainer">
             <picture id='frstMaresk' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./maersk1.png" width="918" height="348" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./maersk1.png" width="918" height="348" alt=''/>
             </picture>
 
             <picture id='scndMaresk' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./maersk2.png" width="918" height="348" loading="lazy" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./maersk2.png" width="918" height="348" loading="lazy" alt=''/>
               <Tabsbutton label="Read Story"></Tabsbutton>
             </picture>
           </div>
@@ -120,13 +121,13 @@ function Sliderr() {
         <div onMouseEnter={changeTwilio} onMouseLeave={revertTwilio} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
           <div className="CustomersCaseStudyCardBackground__imageContainer">
             <picture id='frstTwilio' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./twilio1.png" width="918" height="348" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./twilio1.png" width="918" height="348" alt='' />
             </picture>
 
             <picture id='scndTwilio' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-              <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                src="./twilio2.png" width="918" height="348" loading="lazy" />
+              <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                src="./twilio2.png" width="918" height="348" loading="lazy" alt='' />
               <Tabsbutton label="Read Story"></Tabsbutton>
             </picture>
           </div>

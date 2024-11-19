@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Tabsbutton from "./Tabsbutton";
+import Image from "next/image";
 
 export default class PreviousNextMethods extends Component {
 
@@ -85,13 +86,13 @@ export default class PreviousNextMethods extends Component {
                         <div className="CustomersCaseStudyCardBackground__imageContainer">
                             {/* bmw first image */}
                             <picture id='frstBmw' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./bmw1.png" width="918" height="348" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./bmw1.png" width="918" height="348" alt=""/>
                             </picture>
                             {/* Bmw Second Image */}
                             <picture id='scndBmw' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./bmw2.png" width="918" height="348" loading="lazy" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./bmw2.png" width="918" height="348" loading="lazy" alt=""/>
                                 <Tabsbutton label="Read Story"></Tabsbutton>
                             </picture>
                         </div>
@@ -100,13 +101,13 @@ export default class PreviousNextMethods extends Component {
                     <div key={2} onMouseEnter={changeAmzn} onMouseLeave={revertAmzn} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
                         <div className="CustomersCaseStudyCardBackground__imageContainer">
                             <picture id='frstAmzn' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./amazon1.png" width="918" height="348" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./amazon1.png" width="918" height="348" alt=""/>
                             </picture>
 
                             <picture id='scndAmzn' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./amazon2.png" width="918" height="348" loading="lazy" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./amazon2.png" width="918" height="348" loading="lazy" alt=""/>
                                 <Tabsbutton label="Read Story"></Tabsbutton>
                             </picture>
                         </div>
@@ -115,13 +116,13 @@ export default class PreviousNextMethods extends Component {
                     <div key={3} onMouseEnter={changeMaresk} onMouseLeave={revertMaresk} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
                         <div className="CustomersCaseStudyCardBackground__imageContainer">
                             <picture id='frstMaresk' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./maersk1.png" width="918" height="348" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./maersk1.png" width="918" height="348" alt=""/>
                             </picture>
 
                             <picture id='scndMaresk' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./maersk2.png" width="918" height="348" loading="lazy" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./maersk2.png" width="918" height="348" loading="lazy" alt=""/>
                                 <Tabsbutton label="Read Story"></Tabsbutton>
                             </picture>
                         </div>
@@ -130,13 +131,13 @@ export default class PreviousNextMethods extends Component {
                     <div key={4} onMouseEnter={changeTwilio} onMouseLeave={revertTwilio} className="CustomersCaseStudyCardBackground" data-js-target-list="CustomersCaseStudyCarousel.backgrounds" id="idd11">
                         <div className="CustomersCaseStudyCardBackground__imageContainer">
                             <picture id='frstTwilio' className="Picture CustomersCaseStudyCardBackground__picture CustomersCaseStudyCardBackground__picture--portrait">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./twilio1.png" width="918" height="348" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./twilio1.png" width="918" height="348" alt=""/>
                             </picture>
 
                             <picture id='scndTwilio' className="Picture CustomersCaseStudyCardBackground__picture hidden">
-                                <img className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
-                                    src="./twilio2.png" width="918" height="348" loading="lazy" />
+                                <Image className="!rounded-lg Picture__image CustomersCaseStudyCardBackground__image"
+                                    src="./twilio2.png" width="918" height="348" loading="lazy" alt=""/>
                                 <Tabsbutton label="Read Story"></Tabsbutton>
                             </picture>
                         </div>

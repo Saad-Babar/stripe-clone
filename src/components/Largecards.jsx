@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from 'next/image';
 
 function Largecards() {
 
@@ -94,8 +95,8 @@ function Largecards() {
                                 </section>
                                 <section className="StartupCards mt-[50px] fortwentyfive:mt-[10px]">
                                     <div className="StartupCard loweredCard" onMouseEnter={changePic} onMouseLeave={prevPic}>
-                                        <img src="/lcard1.png" alt="Description of Image 1" id='frstImg' />
-                                        <img src="/lcard1h.png" alt="Description of Image 2" className='hidden' id='scndImg' />
+                                        <Image src="/lcard1.png" alt="Description of Image 1" id='frstImg' />
+                                        <Image src="/lcard1h.png" alt="Description of Image 2" className='hidden' id='scndImg' />
                                         <div className='pl-[35px] pb-[40px]'>
                                             <div class="icon-text-container !mb-[15px] mt-[30px]">
                                                 <svg className="ProductIcon ProductIcon--Atlas ProductBadge__icon" width="20" height="20"
@@ -140,8 +141,8 @@ function Largecards() {
                                         </div>
                                     </div>
                                     <div className="StartupCard md-to-mm:mt-[250px]" onMouseEnter={changePic2} onMouseLeave={prevPic2}>
-                                        <img src="/lcard2.png" alt="Description of Image 2" id='frstImg2' />
-                                        <img src="/lcard2h.png" alt="Description of Image 3" id='scndImg2' className='hidden' />
+                                        <Image src="/lcard2.png" alt="Description of Image 2" id='frstImg2' />
+                                        <Image src="/lcard2h.png" alt="Description of Image 3" id='scndImg2' className='hidden' />
                                         <div className='pl-[35px] pb-[40px]'>
                                             <div className="icon-text-container !mb-[15px] mt-[30px] !max-w-[130px]">
                                                 <svg className="ProductIcon ProductIcon--PaymentLinks ProductBadge__icon" width="25" height="25"
@@ -182,8 +183,8 @@ function Largecards() {
                                 </section>
                                 <section className="StartupCards">
                                     <div className="StartupCard loweredCard" onMouseEnter={changePic3} onMouseLeave={prevPic3}>
-                                        <img src="/lcard3.png" alt="Description of Image 3" id='frstImg3' />
-                                        <img src="/lcard3h.png" alt="Description of Image 4" id='scndImg3' className='hidden' />
+                                        <Image src="/lcard3.png" alt="Description of Image 3" id='frstImg3' />
+                                        <Image src="/lcard3h.png" alt="Description of Image 4" id='scndImg3' className='hidden' />
                                         <div className='pl-[35px] pb-[40px]'>
                                             <div className="icon-text-container !mb-[15px] mt-[30px] !max-w-[100px]">
                                                 <svg className="ProductIcon ProductBadge__icon" width="20" height="20" viewBox="0 0 40 40"
@@ -225,8 +226,8 @@ function Largecards() {
                                         </div>
                                     </div>
                                     <div className="StartupCard md-to-mm:mt-[250px]" onMouseEnter={changePic4} onMouseLeave={prevPic4}>
-                                        <img src="/lcard4.png" alt="Description of Image 4" id='frstImg4' />
-                                        <img src="/lcard4h.png" alt="Description of Image 4" id='scndImg4' className='hidden' />
+                                        <Image src="/lcard4.png" alt="Description of Image 4" id='frstImg4' />
+                                        <Image src="/lcard4h.png" alt="Description of Image 4" id='scndImg4' className='hidden' />
                                         <div className='pl-[35px] pb-[40px]'>
                                             <div className="icon-text-container !mb-[15px] mt-[30px] !max-w-[90px]">
                                                 <svg className="ProductIcon ProductIcon--Invoicing ProductBadge__icon" width="20" height="20"

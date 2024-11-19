@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from 'next/image';
 
 function Launch() {
 
@@ -90,24 +91,24 @@ function Launch() {
                 </section>
                 <section className="Cards mb-[120px]">
                   <div className="Card" onMouseEnter={changePi} onMouseLeave={prevPi}>
-                    <img src="/card1.png" alt="Description of Image 2" id='frstIm' />
-                    <img src="/card1h.png" alt="Description of Image 3" id='scndIm' className='hidden' />
+                    <Image src="/card1.png" alt="Description of Image 2" id='frstIm' />
+                    <Image src="/card1h.png" alt="Description of Image 3" id='scndIm' className='hidden' />
                     <div className='pl-[10px] pb-[88px] pt-[25px]'>
                       <h2 className='text-left text-[26px] leading-[36px] font-medium text-[#0a2540]'>Build with Stripe-certified experts</h2>
                       <p className='pt-[20px] text-left text-[18px] leading-[28px] font-light text-[#425466]'>Work <span className='font-normal text-darkbl'>that</span> with a Stripe consulting <span className='font-normal text-darkbl'>partner</span>  can integrate and deploy <span className='font-normal text-darkbl'>Stripe</span> solutions for you.</p>
                     </div>
                   </div>
                   <div className="Card" onMouseEnter={changePi2} onMouseLeave={prevPi2}>
-                    <img src="/card2.png" alt="Description of Image 2" id='frstIm2' />
-                    <img src="/card2h.png" alt="Description of Image 2" id='scndIm2' className='hidden' />
+                    <Image src="/card2.png" alt="Description of Image 2" id='frstIm2' />
+                    <Image src="/card2h.png" alt="Description of Image 2" id='scndIm2' className='hidden' />
                     <div className='pl-[10px] pb-[88px] pt-[25px]'>
                       <h2 className='text-left text-[26px] leading-[36px] font-medium text-[#0a2540]'>Build with Stripe-certified experts</h2>
                       <p className='pt-[20px] text-left text-[18px] leading-[28px] font-light text-[#425466]'>Work with a Stripe <span className='font-normal text-darkbl'>partner</span> consulting partner that can integrate and deploy Stripe solutions <span className='font-normal text-darkbl'>partner</span> for you.</p>
                     </div>
                   </div>
                   <div className="Card" onMouseEnter={changePi3} onMouseLeave={prevPi3}>
-                    <img src="/card3.png" alt="Description of Image 3" id='frstIm3' />
-                    <img src="/card3h.png" alt="Description of Image 3" id='scndIm3' className='hidden' />
+                    <Image src="/card3.png" alt="Description of Image 3" id='frstIm3' />
+                    <Image src="/card3h.png" alt="Description of Image 3" id='scndIm3' className='hidden' />
                     <div className='pl-[10px] pb-[88px] pt-[25px]'>
                       <h2 className='text-left text-[26px] leading-[36px] font-medium text-[#0a2540]'>Build with Stripe-certified experts</h2>
                       <p className='pt-[20px] text-left text-[18px] leading-[28px] font-light text-[#425466]'>Work with a Stripe consulting partner that can <span className='font-normal text-darkbl'>partner</span> integrate and deploy Stripe solutions for you.</p>
